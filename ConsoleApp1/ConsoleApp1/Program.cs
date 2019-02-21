@@ -12,7 +12,7 @@ namespace testing
         {
             int x = 5;
             int y = 2;
-            int z = y * x;
+            int z = y * (x*2);
             Console.WriteLine (z);
             Console.ReadLine();
         }
